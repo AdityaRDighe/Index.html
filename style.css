@@ -1,0 +1,52 @@
+
+.show {
+    animation:  MM 1s ease-in infinite 2s alternate;
+
+}
+@keyframes MM{
+    from{
+        color: lightblue;
+    }
+    to{
+        color: darkred;
+    }
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    background-image: url("svm.jpg");
+    background-size: cover;
+}
+.box2{
+    height: 300px;
+    width: 400px;
+    background-image: url("sbi.jpg");
+    background-size: cover;
+    
+}
+.button{
+    animation: NN 1s ease-in infinite 1s alternate;
+
+}
+@keyframes NN {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: brown;
+        transform: translate(10px,10px);
+    }
+}
+.lox1{
+    height: 200px;
+    width: 200px;
+    background-image: url("books.jpg");
+    background-size: cover;
+    border: 1px solid `;
+}
+.lox2{
+    height: 150px;
+    width: 150px;
+    background-image: url("ai\ .jpg");
+    background-size: cover;
+}
